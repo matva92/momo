@@ -4,7 +4,7 @@ body {
 
 
 @font-face {
-    font-family: 'prueba';
+    font-family: 'proto';
     src: url('./fonts/protogrotesk-light-TRIAL.otf');
 }
 
@@ -13,7 +13,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%,0);
-    font-family: 'prueba';
+    font-family: 'proto';
     font-size: 80px;
     letter-spacing: -4px;
 }
@@ -26,6 +26,8 @@ body {
     margin-right: 1%;
     margin-bottom: 1%;
     transition: opacity 1s; 
+    font-family: 'proto';
+
 }
 
 .visible {
