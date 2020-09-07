@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+}
+
+
+@font-face {
+    font-family: 'prueba';
+    src: url('./fonts/protogrotesk-light-TRIAL.otf');
+}
+
+.momo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0);
+    font-family: 'prueba';
+    font-size: 80px;
+    letter-spacing: -4px;
+}
+
+.mail {
+    opacity: 0;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    transition: opacity 1s; 
+}
+
+.visible {
+    opacity: 1;
+}

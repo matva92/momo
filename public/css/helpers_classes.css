@@ -1,0 +1,322 @@
+/* Floated Elements */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* Aligning Elements */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-just {
+    text-align: justify;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+.align-bottom {
+    vertical-align: bottom;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+/* Visibility Classes */
+
+.o1 {
+    opacity: 1;
+}
+.o5 {
+    opacity: 0.5;
+}
+
+.o75 {
+    opacity: 0.75;
+}
+
+.o25 {
+    opacity: 0.25;
+}
+
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.hide-on-small {
+    display: none;
+}
+
+.show-in-large {
+    display: block;
+}
+
+/* Typography */
+
+.bold {
+    font-weight: bold;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.ell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.break-word {
+    word-wrap: break-word;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+
+/* Width and Height */
+
+.fit {
+    max-width: 100%;
+}
+
+.half-width {
+    width: 50%
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+/* Position and Z-index */
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.static {
+    position: static;
+}
+
+.zindex-1 {
+    z-index: 1;
+}
+
+.zindex-2 {
+    z-index: 2;
+}
+
+.zindex-3 {
+    z-index: 3;
+}
+
+.pin-top-right {
+    top: 0;
+    right: 0;
+}
+
+.pin-bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+/* Display Values */
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.grid {
+    display: grid;
+}
+
+.hide {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/*Colors*/
+
+.fred {
+    color: red !important;
+}
+
+.fwhite {
+    color: white !important;
+}
+
+.fblue {
+    color: blue !important;
+}
+
+.forange {
+    color: orange !important;
+}
+
+.fyellow {
+    color: yellow !important;
+}
+
+.fpurple {
+    color: purple !important;
+}
+
+.fmagenta {
+    color: magenta !important;
+}
+
+.fgreen {
+    color: green !important;
+}
+
+.fgray {
+    color: gray !important;
+}
+
+.bred {
+    background-color: red !important;
+}
+
+.bwhite {
+    background-color: white !important;
+}
+
+.bblue {
+    background-color: blue !important;
+}
+
+.borange {
+    background-color: orange !important;
+}
+
+.byellow {
+    background-color: yellow !important;
+}
+
+.bpurple {
+    background-color: purple !important;
+}
+
+.bmagenta {
+    background-color: magenta !important;
+}
+
+.bgreen {
+    background-color: green !important;
+}
+
+.bgray {
+    background-color: gray !important;
+}
+
+.bblack {
+    background-color: black !important;
+}
+
+.btransparent {
+    background-color: transparent !important;
+}
+
+/* Borders */
+
+.borderb {
+    border: 3px solid black;
+}
+
+.borderw {
+    border: 3px solid white;
+}
+
+/*borde circular*/
+.cradius {
+    border-radius: 4rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+/*Line Height*/
+
+.line1 {
+    line-height: 1.3rem;
+}
+
+.center {
+    margin: 0.7rem auto;
+    text-align: center;
+}
+
+
+/*reset margin and padding*/
+.rmp {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/*margin1 & padding*/
+.margin1 {
+    margin: 3rem;
+}
+
+.padding1 {
+    padding: 3rem;
+}
+
+/*1/4 de with*/
+.wquarter{
+    width: 25%;
+}
+
+
+/*border decoration*/
+.borderbottom {
+    padding-bottom: 3px;
+    border-bottom: 4px solid white;
+}
