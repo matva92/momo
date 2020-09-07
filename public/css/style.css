@@ -12,10 +12,11 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%,-50%);
     font-family: 'proto';
     font-size: 80px;
     letter-spacing: -4px;
+    color: black;
 }
 
 .mail {
